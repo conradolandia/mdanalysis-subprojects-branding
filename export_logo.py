@@ -34,12 +34,28 @@ def find_converter():
 
 
 def find_imagemagick():
-    """Check if ImageMagick is available for padding operations."""
+    """Check if ImageMagick is available and return the appropriate command."""
+    # Try v7+ 'magick' command first
+    try:
+        result = subprocess.run(["magick", "-version"], capture_output=True, check=True, text=True)
+        # Parse version to confirm it's v7+
+        version_line = result.stdout.split('\n')[0]
+        if 'ImageMagick' in version_line:
+            # Extract version number
+            version_parts = version_line.split()
+            for part in version_parts:
+                if part.startswith('7.'):
+                    return "magick"
+        return "magick"  # Assume v7+ if magick command works
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        pass
+    
+    # Fall back to v6 'convert' command
     try:
         subprocess.run(["convert", "-version"], capture_output=True, check=True)
-        return True
+        return "convert"
     except (subprocess.CalledProcessError, FileNotFoundError):
-        return False
+        return None
 
 
 def export_png(
@@ -76,7 +92,8 @@ def export_png(
         )
     else:
         # For padding, we need ImageMagick
-        if not find_imagemagick():
+        magick_cmd = find_imagemagick()
+        if not magick_cmd:
             print("Error: ImageMagick required for padding functionality")
             print("Install with: sudo apt install imagemagick (Ubuntu/Debian)")
             print("            : brew install imagemagick (macOS)")
@@ -90,6 +107,7 @@ def export_png(
             padding_percent,
             converter_name,
             converter_cmd,
+            magick_cmd,
         )
 
 
@@ -156,6 +174,7 @@ def _export_png_with_padding(
     padding_percent=0,
     converter_name=None,
     converter_cmd=None,
+    magick_cmd=None,
 ):
     """Export PNG with padding using ImageMagick."""
     # First, export to a temporary PNG
@@ -191,8 +210,8 @@ def _export_png_with_padding(
         subprocess.run(cmd, check=True)
 
         # Use ImageMagick to add padding
-        magick_cmd = [
-            "convert",
+        magick_command = [
+            magick_cmd,
             str(temp_png_path),
             "-bordercolor",
             "white" if white_background else "transparent",
@@ -201,7 +220,7 @@ def _export_png_with_padding(
             str(output_path),
         ]
 
-        subprocess.run(magick_cmd, check=True)
+        subprocess.run(magick_command, check=True)
 
         # Build description
         bg_desc = "white background" if white_background else "transparent background"
