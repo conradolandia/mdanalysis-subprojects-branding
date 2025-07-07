@@ -30,9 +30,10 @@ The identity system utilizes **Zag** as the primary typeface across all applicat
 ## Technical Specifications
 
 ### File Formats
-All logos are provided in three production-ready formats:
+All logos are provided in four production-ready formats:
 - **SVG** (Scalable Vector Graphics): For web applications and scalable print use
 - **PNG** (Portable Network Graphics): For digital applications requiring raster format
+- **JPG** (Joint Photographic Experts Group): For web use and social media with optimized compression
 - **PDF** (Portable Document Format): For high-quality print production
 
 ### Color Profile
@@ -48,6 +49,7 @@ Each sub-project maintains its own directory containing all format variations:
 ```
 project_logos/
 ├── [PROJECT_NAME]/
+│   ├── MDAnalysis__[PROJECT_NAME].jpg
 │   ├── MDAnalysis__[PROJECT_NAME].svg
 │   ├── MDAnalysis__[PROJECT_NAME].png
 │   └── MDAnalysis__[PROJECT_NAME].pdf
@@ -180,49 +182,75 @@ The following table provides an overview of all available project logos with dir
 
 ## Logo Export Tool
 
-For convenience, a Python script (`export_logo.py`) is included to generate custom PNG exports from the SVG source files. This tool allows you to create PNG versions at specific dimensions while preserving aspect ratios.
+For convenience, a Python script (`export_logo.py`) is included to generate custom PNG and JPG exports from the SVG source files. This tool allows you to create images at specific dimensions while preserving aspect ratios.
 
 ### Usage
 
 ```bash
-python export_logo.py PROJECT_NAME [--width WIDTH] [--height HEIGHT] [--white-background]
+python export_logo.py PROJECT_NAME [--width WIDTH] [--height HEIGHT] [--white-background] [--jpg] [--padding PERCENT]
 ```
 
 ### Examples
 
 ```bash
-# Export with specific width (height auto-calculated)
+# Export PNG with specific width (height auto-calculated)
 python export_logo.py MDAGridDataFormats --width 256
 
-# Export with specific height (width auto-calculated)  
+# Export PNG with specific height (width auto-calculated)  
 python export_logo.py PMDA --height 128
 
-# Export with default size (256px width)
+# Export PNG with default size (256px width)
 python export_logo.py MDAData
 
-# Export with white background instead of transparent
+# Export PNG with white background instead of transparent
 python export_logo.py MDADistopia --width 512 --white-background
 
-# Export with white background and specific height
-python export_logo.py PyTNG --height 200 --white-background
+# Export PNG with 10% padding (transparent background)
+python export_logo.py PyTNG --padding 10
+
+# Export PNG with 15% padding and white background
+python export_logo.py MDAEncore --padding 15 --white-background
+
+# Export JPG with default settings (white background, no padding)
+python export_logo.py PMDA --jpg
+
+# Export JPG with 10% padding
+python export_logo.py MDABenchmarks --jpg --padding 10
+
+# Export JPG with specific width and 5% padding
+python export_logo.py MDADistopia --jpg --width 400 --padding 5
 ```
 
 ### Requirements
 
-The script automatically detects and uses available SVG converters:
+**For PNG export:**
 - **rsvg-convert** (recommended - from `librsvg2-bin` package)
 - **inkscape** (alternative option)
+
+**For JPG export with padding:**
+- One of the above SVG converters
+- **Pillow** Python library: `pip install Pillow`
 
 ### Features
 
 - **Aspect ratio preservation**: Automatically maintains logo proportions
 - **Flexible sizing**: Specify either width or height, other dimension calculated automatically
-- **Background options**: Export with transparent background (default) or white background
+- **Multiple formats**: Export as PNG or JPG
+- **Background options**: 
+  - PNG: Transparent background (default) or white background
+  - JPG: Always white background (format requirement)
+- **Flexible padding**: Add padding around images (any percentage, applies to both formats)
+  - PNG with padding: Can use transparent or white background
+  - JPG with padding: Always uses white background
+- **Professional output**: High-quality images with optimized compression
 - **Simple output**: Exports to current directory with standard naming
 - **Error handling**: Clear messages for missing projects or converters
-- **No external dependencies**: Uses system-installed tools only
+- **Automatic cleanup**: Temporary files are removed after processing
+- **Smart optimization**: Direct SVG conversion for PNG without padding, Pillow processing when needed
 
-The exported PNG files are saved in the project root directory with the naming convention: `MDAnalysis__[PROJECT_NAME].png`
+The exported files are saved in the project root directory with naming convention:
+- PNG: `MDAnalysis__[PROJECT_NAME].png`
+- JPG: `MDAnalysis__[PROJECT_NAME].jpg`
 
 ## Usage Guidelines
 
