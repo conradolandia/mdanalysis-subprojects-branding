@@ -3,11 +3,11 @@
 Simple script to export PNG from SVG logo files.
 
 Usage:
-    python export_logo.py PROJECT_NAME [--width WIDTH] [--height HEIGHT]
+    python export_logo.py PROJECT_NAME [--width WIDTH] [--height HEIGHT] [--white-background]
 
 Examples:
     python export_logo.py MDAGridDataFormats --width 256
-    python export_logo.py PMDA --height 128
+    python export_logo.py PMDA --height 128 --white-background
     python export_logo.py MDAData
 """
 
@@ -34,7 +34,7 @@ def find_converter():
     return None, None
 
 
-def export_png(project_name, width=None, height=None):
+def export_png(project_name, width=None, height=None, white_background=False):
     """Export PNG from SVG logo."""
     # Find source SVG file
     svg_path = Path(f"project_logos/{project_name}/MDAnalysis__{project_name}.svg")
@@ -62,6 +62,11 @@ def export_png(project_name, width=None, height=None):
             cmd.extend(["-h", str(height)])
         else:
             cmd.extend(["-w", "256"])  # Default width
+        
+        # Add white background if requested
+        if white_background:
+            cmd.extend(["-b", "white"])
+        
         cmd.extend(["-o", str(output_path), str(svg_path)])
     
     elif converter_name == "inkscape":
@@ -72,12 +77,18 @@ def export_png(project_name, width=None, height=None):
             cmd.extend(["-h", str(height)])
         else:
             cmd.extend(["-w", "256"])  # Default width
+        
+        # Add white background if requested
+        if white_background:
+            cmd.extend(["--export-background", "white", "--export-background-opacity", "1.0"])
+        
         cmd.extend(["-o", str(output_path), str(svg_path)])
     
     # Execute conversion
     try:
         subprocess.run(cmd, check=True)
-        print(f"✓ Exported: {output_path}")
+        bg_info = " with white background" if white_background else ""
+        print(f"✓ Exported: {output_path}{bg_info}")
         return True
     except subprocess.CalledProcessError as e:
         print(f"Error during conversion: {e}")
@@ -102,6 +113,11 @@ def main():
         type=int,
         help="Output height in pixels (preserves aspect ratio)"
     )
+    parser.add_argument(
+        "--white-background",
+        action="store_true",
+        help="Export with white background instead of transparent"
+    )
     
     args = parser.parse_args()
     
@@ -123,7 +139,7 @@ def main():
         return 1
     
     # Export PNG
-    success = export_png(args.project_name, args.width, args.height)
+    success = export_png(args.project_name, args.width, args.height, args.white_background)
     return 0 if success else 1
 
 

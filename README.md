@@ -57,26 +57,126 @@ project_logos/
 
 The following table provides an overview of all available project logos with direct download links for each format:
 
-| Project | Logo Preview | Downloads | Repository |
-|---------|-------------|-----------|------------|
-| **CookiecutterMDAKit** | ![CookiecutterMDAKit Logo](project_logos/CookiecutterMDAKit/MDAnalysis__CookiecutterMDAKit.png) | [SVG](project_logos/CookiecutterMDAKit/MDAnalysis__CookiecutterMDAKit.svg) • [PNG](project_logos/CookiecutterMDAKit/MDAnalysis__CookiecutterMDAKit.png) • [PDF](project_logos/CookiecutterMDAKit/MDAnalysis__CookiecutterMDAKit.pdf) | [GitHub](https://github.com/MDAnalysis/cookiecutter-mdakit) |
-| **Helenal** | ![Helenal Logo](project_logos/Helenal/MDAnalysis__Helenal.png) | [SVG](project_logos/Helenal/MDAnalysis__Helenal.svg) • [PNG](project_logos/Helenal/MDAnalysis__Helenal.png) • [PDF](project_logos/Helenal/MDAnalysis__Helenal.pdf) | [GitHub](https://github.com/MDAnalysis/helenal) |
-| **MDABenchmarks** | ![MDABenchmarks Logo](project_logos/MDABenchmarks/MDAnalysis__MDABenchmarks.png) | [SVG](project_logos/MDABenchmarks/MDAnalysis__MDABenchmarks.svg) • [PNG](project_logos/MDABenchmarks/MDAnalysis__MDABenchmarks.png) • [PDF](project_logos/MDABenchmarks/MDAnalysis__MDABenchmarks.pdf) | [GitHub](https://github.com/MDAnalysis/mdabenchmarks) |
-| **MDACli** | ![MDACli Logo](project_logos/MDACli/MDAnalysis__MDACli.png) | [SVG](project_logos/MDACli/MDAnalysis__MDACli.svg) • [PNG](project_logos/MDACli/MDAnalysis__MDACli.png) • [PDF](project_logos/MDACli/MDAnalysis__MDACli.pdf) | [GitHub](https://github.com/MDAnalysis/mdacli) |
-| **MDAData** | ![MDAData Logo](project_logos/MDAData/MDAnalysis__MDAData.png) | [SVG](project_logos/MDAData/MDAnalysis__MDAData.svg) • [PNG](project_logos/MDAData/MDAnalysis__MDAData.png) • [PDF](project_logos/MDAData/MDAnalysis__MDAData.pdf) | [GitHub](https://github.com/MDAnalysis/MDAnalysisData) |
-| **MDADistopia** | ![MDADistopia Logo](project_logos/MDADistopia/MDAnalysis__MDADistopia.png) | [SVG](project_logos/MDADistopia/MDAnalysis__MDADistopia.svg) • [PNG](project_logos/MDADistopia/MDAnalysis__MDADistopia.png) • [PDF](project_logos/MDADistopia/MDAnalysis__MDADistopia.pdf) | [GitHub](https://github.com/MDAnalysis/distopia) |
-| **MDAEncore** | ![MDAEncore Logo](project_logos/MDAEncore/MDAnalysis__MDAEncore.png) | [SVG](project_logos/MDAEncore/MDAnalysis__MDAEncore.svg) • [PNG](project_logos/MDAEncore/MDAnalysis__MDAEncore.png) • [PDF](project_logos/MDAEncore/MDAnalysis__MDAEncore.pdf) | [GitHub](https://github.com/MDAnalysis/encore) |
-| **MDAGridDataFormats** | ![MDAGridDataFormats Logo](project_logos/MDAGridDataFormats/MDAnalysis__MDAGridDataFormats.png) | [SVG](project_logos/MDAGridDataFormats/MDAnalysis__MDAGridDataFormats.svg) • [PNG](project_logos/MDAGridDataFormats/MDAnalysis__MDAGridDataFormats.png) • [PDF](project_logos/MDAGridDataFormats/MDAnalysis__MDAGridDataFormats.pdf) | [GitHub](https://github.com/MDAnalysis/GridDataFormats) |
-| **MDAHole2** | ![MDAHole2 Logo](project_logos/MDAHole2/MDAnalysis__MDAHole2.png) | [SVG](project_logos/MDAHole2/MDAnalysis__MDAHole2.svg) • [PNG](project_logos/MDAHole2/MDAnalysis__MDAHole2.png) • [PDF](project_logos/MDAHole2/MDAnalysis__MDAHole2.pdf) | [GitHub](https://github.com/MDAnalysis/hole2-mdakit) |
-| **MDAUserGuide** | ![MDAUserGuide Logo](project_logos/MDAUserGuide/MDAnalysis__MDAUserGuide.png) | [SVG](project_logos/MDAUserGuide/MDAnalysis__MDAUserGuide.svg) • [PNG](project_logos/MDAUserGuide/MDAnalysis__MDAUserGuide.png) • [PDF](project_logos/MDAUserGuide/MDAnalysis__MDAUserGuide.pdf) | [GitHub](https://github.com/MDAnalysis/UserGuide) |
-| **MembraneCurvature** | ![MembraneCurvature Logo](project_logos/MembraneCurvature/MDAnalysis__MembraneCurvature.png) | [SVG](project_logos/MembraneCurvature/MDAnalysis__MembraneCurvature.svg) • [PNG](project_logos/MembraneCurvature/MDAnalysis__MembraneCurvature.png) • [PDF](project_logos/MembraneCurvature/MDAnalysis__MembraneCurvature.pdf) | [GitHub](https://github.com/MDAnalysis/membrane-curvature) |
-| **OpenBabelConvertor** | ![OpenBabelConvertor Logo](project_logos/OpenBabelConvertor/MDAnalysis__OpenBabelConvertor.png) | [SVG](project_logos/OpenBabelConvertor/MDAnalysis__OpenBabelConvertor.svg) • [PNG](project_logos/OpenBabelConvertor/MDAnalysis__OpenBabelConvertor.png) • [PDF](project_logos/OpenBabelConvertor/MDAnalysis__OpenBabelConvertor.pdf) | [GitHub](https://github.com/MDAnalysis/openbabel-mdakit) |
-| **PathSimAnalysis** | ![PathSimAnalysis Logo](project_logos/PathSimAnalysis/MDAnalysis__PathSimAnalysis.png) | [SVG](project_logos/PathSimAnalysis/MDAnalysis__PathSimAnalysis.svg) • [PNG](project_logos/PathSimAnalysis/MDAnalysis__PathSimAnalysis.png) • [PDF](project_logos/PathSimAnalysis/MDAnalysis__PathSimAnalysis.pdf) | [GitHub](https://github.com/MDAnalysis/pathsimanalysis) |
-| **PMDA** | ![PMDA Logo](project_logos/PMDA/MDAnalysis__PMDA.png) | [SVG](project_logos/PMDA/MDAnalysis__PMDA.svg) • [PNG](project_logos/PMDA/MDAnalysis__PMDA.png) • [PDF](project_logos/PMDA/MDAnalysis__PMDA.pdf) | [GitHub](https://github.com/MDAnalysis/pmda) |
-| **PyTNG** | ![PyTNG Logo](project_logos/PyTNG/MDAnalysis__PyTNG.png) | [SVG](project_logos/PyTNG/MDAnalysis__PyTNG.svg) • [PNG](project_logos/PyTNG/MDAnalysis__PyTNG.png) • [PDF](project_logos/PyTNG/MDAnalysis__PyTNG.pdf) | [GitHub](https://github.com/MDAnalysis/pytng) |
-| **SolvationAnalysis** | ![SolvationAnalysis Logo](project_logos/SolvationAnalysis/MDAnalysis__SolvationAnalysis.png) | [SVG](project_logos/SolvationAnalysis/MDAnalysis__SolvationAnalysis.svg) • [PNG](project_logos/SolvationAnalysis/MDAnalysis__SolvationAnalysis.png) • [PDF](project_logos/SolvationAnalysis/MDAnalysis__SolvationAnalysis.pdf) | [GitHub](https://github.com/MDAnalysis/solvation-analysis) |
-| **TransportAnalysis** | ![TransportAnalysis Logo](project_logos/TransportAnalysis/MDAnalysis__TransportAnalysis.png) | [SVG](project_logos/TransportAnalysis/MDAnalysis__TransportAnalysis.svg) • [PNG](project_logos/TransportAnalysis/MDAnalysis__TransportAnalysis.png) • [PDF](project_logos/TransportAnalysis/MDAnalysis__TransportAnalysis.pdf) | [GitHub](https://github.com/MDAnalysis/transport-analysis) |
-| **WaterDynamics** | ![WaterDynamics Logo](project_logos/WaterDynamics/MDAnalysis__WaterDynamics.png) | [SVG](project_logos/WaterDynamics/MDAnalysis__WaterDynamics.svg) • [PNG](project_logos/WaterDynamics/MDAnalysis__WaterDynamics.png) • [PDF](project_logos/WaterDynamics/MDAnalysis__WaterDynamics.pdf) | [GitHub](https://github.com/MDAnalysis/waterdynamics) |
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Logo Preview</th>
+<th>Downloads</th>
+<th>Repository</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CookiecutterMDAKit</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/CookiecutterMDAKit/MDAnalysis__CookiecutterMDAKit.png" alt="CookiecutterMDAKit Logo" width="120"></td>
+<td><a href="project_logos/CookiecutterMDAKit/MDAnalysis__CookiecutterMDAKit.svg">SVG</a> • <a href="project_logos/CookiecutterMDAKit/MDAnalysis__CookiecutterMDAKit.png">PNG</a> • <a href="project_logos/CookiecutterMDAKit/MDAnalysis__CookiecutterMDAKit.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/cookiecutter-mdakit">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>Helenal</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/Helenal/MDAnalysis__Helenal.png" alt="Helenal Logo" width="120"></td>
+<td><a href="project_logos/Helenal/MDAnalysis__Helenal.svg">SVG</a> • <a href="project_logos/Helenal/MDAnalysis__Helenal.png">PNG</a> • <a href="project_logos/Helenal/MDAnalysis__Helenal.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/helenal">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>MDABenchmarks</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/MDABenchmarks/MDAnalysis__MDABenchmarks.png" alt="MDABenchmarks Logo" width="120"></td>
+<td><a href="project_logos/MDABenchmarks/MDAnalysis__MDABenchmarks.svg">SVG</a> • <a href="project_logos/MDABenchmarks/MDAnalysis__MDABenchmarks.png">PNG</a> • <a href="project_logos/MDABenchmarks/MDAnalysis__MDABenchmarks.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/mdabenchmarks">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>MDACli</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/MDACli/MDAnalysis__MDACli.png" alt="MDACli Logo" width="120"></td>
+<td><a href="project_logos/MDACli/MDAnalysis__MDACli.svg">SVG</a> • <a href="project_logos/MDACli/MDAnalysis__MDACli.png">PNG</a> • <a href="project_logos/MDACli/MDAnalysis__MDACli.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/mdacli">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>MDAData</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/MDAData/MDAnalysis__MDAData.png" alt="MDAData Logo" width="120"></td>
+<td><a href="project_logos/MDAData/MDAnalysis__MDAData.svg">SVG</a> • <a href="project_logos/MDAData/MDAnalysis__MDAData.png">PNG</a> • <a href="project_logos/MDAData/MDAnalysis__MDAData.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/MDAnalysisData">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>MDADistopia</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/MDADistopia/MDAnalysis__MDADistopia.png" alt="MDADistopia Logo" width="120"></td>
+<td><a href="project_logos/MDADistopia/MDAnalysis__MDADistopia.svg">SVG</a> • <a href="project_logos/MDADistopia/MDAnalysis__MDADistopia.png">PNG</a> • <a href="project_logos/MDADistopia/MDAnalysis__MDADistopia.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/distopia">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>MDAEncore</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/MDAEncore/MDAnalysis__MDAEncore.png" alt="MDAEncore Logo" width="120"></td>
+<td><a href="project_logos/MDAEncore/MDAnalysis__MDAEncore.svg">SVG</a> • <a href="project_logos/MDAEncore/MDAnalysis__MDAEncore.png">PNG</a> • <a href="project_logos/MDAEncore/MDAnalysis__MDAEncore.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/encore">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>MDAGridDataFormats</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/MDAGridDataFormats/MDAnalysis__MDAGridDataFormats.png" alt="MDAGridDataFormats Logo" width="120"></td>
+<td><a href="project_logos/MDAGridDataFormats/MDAnalysis__MDAGridDataFormats.svg">SVG</a> • <a href="project_logos/MDAGridDataFormats/MDAnalysis__MDAGridDataFormats.png">PNG</a> • <a href="project_logos/MDAGridDataFormats/MDAnalysis__MDAGridDataFormats.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/GridDataFormats">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>MDAHole2</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/MDAHole2/MDAnalysis__MDAHole2.png" alt="MDAHole2 Logo" width="120"></td>
+<td><a href="project_logos/MDAHole2/MDAnalysis__MDAHole2.svg">SVG</a> • <a href="project_logos/MDAHole2/MDAnalysis__MDAHole2.png">PNG</a> • <a href="project_logos/MDAHole2/MDAnalysis__MDAHole2.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/hole2-mdakit">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>MDAUserGuide</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/MDAUserGuide/MDAnalysis__MDAUserGuide.png" alt="MDAUserGuide Logo" width="120"></td>
+<td><a href="project_logos/MDAUserGuide/MDAnalysis__MDAUserGuide.svg">SVG</a> • <a href="project_logos/MDAUserGuide/MDAnalysis__MDAUserGuide.png">PNG</a> • <a href="project_logos/MDAUserGuide/MDAnalysis__MDAUserGuide.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/UserGuide">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>MembraneCurvature</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/MembraneCurvature/MDAnalysis__MembraneCurvature.png" alt="MembraneCurvature Logo" width="120"></td>
+<td><a href="project_logos/MembraneCurvature/MDAnalysis__MembraneCurvature.svg">SVG</a> • <a href="project_logos/MembraneCurvature/MDAnalysis__MembraneCurvature.png">PNG</a> • <a href="project_logos/MembraneCurvature/MDAnalysis__MembraneCurvature.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/membrane-curvature">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>OpenBabelConvertor</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/OpenBabelConvertor/MDAnalysis__OpenBabelConvertor.png" alt="OpenBabelConvertor Logo" width="120"></td>
+<td><a href="project_logos/OpenBabelConvertor/MDAnalysis__OpenBabelConvertor.svg">SVG</a> • <a href="project_logos/OpenBabelConvertor/MDAnalysis__OpenBabelConvertor.png">PNG</a> • <a href="project_logos/OpenBabelConvertor/MDAnalysis__OpenBabelConvertor.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/openbabel-mdakit">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>PathSimAnalysis</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/PathSimAnalysis/MDAnalysis__PathSimAnalysis.png" alt="PathSimAnalysis Logo" width="120"></td>
+<td><a href="project_logos/PathSimAnalysis/MDAnalysis__PathSimAnalysis.svg">SVG</a> • <a href="project_logos/PathSimAnalysis/MDAnalysis__PathSimAnalysis.png">PNG</a> • <a href="project_logos/PathSimAnalysis/MDAnalysis__PathSimAnalysis.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/pathsimanalysis">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>PMDA</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/PMDA/MDAnalysis__PMDA.png" alt="PMDA Logo" width="120"></td>
+<td><a href="project_logos/PMDA/MDAnalysis__PMDA.svg">SVG</a> • <a href="project_logos/PMDA/MDAnalysis__PMDA.png">PNG</a> • <a href="project_logos/PMDA/MDAnalysis__PMDA.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/pmda">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>PyTNG</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/PyTNG/MDAnalysis__PyTNG.png" alt="PyTNG Logo" width="120"></td>
+<td><a href="project_logos/PyTNG/MDAnalysis__PyTNG.svg">SVG</a> • <a href="project_logos/PyTNG/MDAnalysis__PyTNG.png">PNG</a> • <a href="project_logos/PyTNG/MDAnalysis__PyTNG.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/pytng">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>SolvationAnalysis</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/SolvationAnalysis/MDAnalysis__SolvationAnalysis.png" alt="SolvationAnalysis Logo" width="120"></td>
+<td><a href="project_logos/SolvationAnalysis/MDAnalysis__SolvationAnalysis.svg">SVG</a> • <a href="project_logos/SolvationAnalysis/MDAnalysis__SolvationAnalysis.png">PNG</a> • <a href="project_logos/SolvationAnalysis/MDAnalysis__SolvationAnalysis.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/solvation-analysis">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>TransportAnalysis</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/TransportAnalysis/MDAnalysis__TransportAnalysis.png" alt="TransportAnalysis Logo" width="120"></td>
+<td><a href="project_logos/TransportAnalysis/MDAnalysis__TransportAnalysis.svg">SVG</a> • <a href="project_logos/TransportAnalysis/MDAnalysis__TransportAnalysis.png">PNG</a> • <a href="project_logos/TransportAnalysis/MDAnalysis__TransportAnalysis.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/transport-analysis">GitHub</a></td>
+</tr>
+<tr>
+<td><strong>WaterDynamics</strong></td>
+<td style="background-color: white; text-align: center; padding: 8px;"><img src="project_logos/WaterDynamics/MDAnalysis__WaterDynamics.png" alt="WaterDynamics Logo" width="120"></td>
+<td><a href="project_logos/WaterDynamics/MDAnalysis__WaterDynamics.svg">SVG</a> • <a href="project_logos/WaterDynamics/MDAnalysis__WaterDynamics.png">PNG</a> • <a href="project_logos/WaterDynamics/MDAnalysis__WaterDynamics.pdf">PDF</a></td>
+<td><a href="https://github.com/MDAnalysis/waterdynamics">GitHub</a></td>
+</tr>
+</tbody>
+</table>
 
 ## Logo Export Tool
 
@@ -85,7 +185,7 @@ For convenience, a Python script (`export_logo.py`) is included to generate cust
 ### Usage
 
 ```bash
-python export_logo.py PROJECT_NAME [--width WIDTH] [--height HEIGHT]
+python export_logo.py PROJECT_NAME [--width WIDTH] [--height HEIGHT] [--white-background]
 ```
 
 ### Examples
@@ -99,6 +199,12 @@ python export_logo.py PMDA --height 128
 
 # Export with default size (256px width)
 python export_logo.py MDAData
+
+# Export with white background instead of transparent
+python export_logo.py MDADistopia --width 512 --white-background
+
+# Export with white background and specific height
+python export_logo.py PyTNG --height 200 --white-background
 ```
 
 ### Requirements
@@ -111,6 +217,7 @@ The script automatically detects and uses available SVG converters:
 
 - **Aspect ratio preservation**: Automatically maintains logo proportions
 - **Flexible sizing**: Specify either width or height, other dimension calculated automatically
+- **Background options**: Export with transparent background (default) or white background
 - **Simple output**: Exports to current directory with standard naming
 - **Error handling**: Clear messages for missing projects or converters
 - **No external dependencies**: Uses system-installed tools only
